@@ -2,7 +2,6 @@ body {
     background-image: url(1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     text-align: center;
     list-style-type: none;
 }
@@ -17,5 +16,5 @@ body {
     text-align: center;
     list-style: none;
     font-size: 25px;
-
+    color: black;
 }
