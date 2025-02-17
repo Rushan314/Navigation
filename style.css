@@ -16,7 +16,9 @@ body {
 
 .List {
     text-align: center;
+    text-decoration: none;
     list-style: none;
     font-size: 25px;
     color: black;
+
 }
