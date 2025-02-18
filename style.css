@@ -9,7 +9,7 @@ body {
 }
 
 .head {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 500;
     text-align: center;
 }
@@ -22,7 +22,7 @@ body {
 a {
     text-decoration: none;
     color: black; transition: 0.6s linear;
-    font-size: 30px;
+    font-size: 25px;
 }
  
 a:hover { 
