@@ -1,0 +1,105 @@
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотостудия "Шарм"</title>
+    <style>
+        body {
+            background-color: #fff8dc; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            font-size: 6em; 
+        }
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .checkbox-group, .radio-group {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="reset"] {
+            background-color: #dc3545;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 150px; 
+        }
+    </style>
+</head>
+<body>
+
+<img src="logo.jpg" alt="Логотип фотостудии 'Шарм'" class="logo"> 
+
+<div class="form-container">
+    <h1>Фотостудия "Шарм"</h1>
+    <form>
+        <label for="name">Имя заказчика:</label>
+        <input type="text" id="name" name="name" style="width:80%;" required>
+
+        <label for="address">Адрес:</label>
+        <input type="text" id="address" name="address" style="width: 80%;" required>
+
+        <label for="phone">Телефон:</label>
+        <input type="text" id="phone" name="phone" style="width: 80%;" required>
+
+        <div class="checkbox-group">
+            <label>Фото:</label>
+            <label><input type="checkbox" name="photo_type" value="Цветное"> Цветное</label>
+            <label><input type="checkbox" name="photo_type" value="Черно-белое"> Черно-белое</label>
+            <label><input type="checkbox" name="photo_type" value="Цветной слайд"> Цветной слайд</label>
+        </div>
+
+        <div class="radio-group">
+            <label>Срок исполнения:</label>
+            <label><input type="radio" name="execution_time" value="3 дня" required> 3 дня</label>
+            <label><input type="radio" name="execution_time" value="10 дней"> 10 дней</label>
+            <label><input type="radio" name="execution_time" value="30 дней"> 30 дней</label>
+        </div>
+
+        <label for="accepted_by">Заказ принял:</label>
+        <select id="accepted_by" name="accepted_by">
+            <option value="Иванов"><a href="#ivanov">Иванов</a></option>
+            <option value="Петров"><a href="#petrov">Петров</a></option>
+            <option value="Сидоров"><a href="#sidorov">Сидоров</a></option>
+        </select>
+
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+    </form>
+</div>
+</body>
+</html>

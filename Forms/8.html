@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бланк заказа</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .checkbox-group, .radio-group {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button[type="reset"] {
+            background-color: #dc3545;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h1>Бланк заказа</h1>
+    <form>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="product" value="Программное обеспечение A"> Программное обеспечение A - 1000 руб.</label>
+            <label><input type="checkbox" name="product" value="Программное обеспечение B"> Программное обеспечение B - 1500 руб.</label>
+            <label><input type="checkbox" name="product" value="Комплектующее C"> Комплектующее C - 2000 руб.</label>
+        </div>
+
+        <label for="address">Адрес доставки:</label>
+        <input type="text" id="address" name="address" required>
+
+        <div class="radio-group">
+            <label>Оплата:</label>
+            <label><input type="radio" name="payment" value="Наличными курьеру" required> Наличными курьеру</label>
+            <label><input type="radio" name="payment" value="Банковский перевод"> Банковский перевод</label>
+        </div>
+
+        <label for="feedback">Мнение о сайте:</label>
+        <select id="feedback" name="feedback">
+            <option value="отлично">Отлично</option>
+            <option value="хорошо">Хорошо</option>
+            <option value="посредственно">Посредственно</option>
+            <option value="плохо">Плохо</option>
+            <option value="очень плохо">Очень плохо</option>
+        </select>
+
+        <label for="wishes">Пожелания:</label>
+        <textarea id="wishes" name="wishes" rows="4"></textarea>
+
+        <button type="submit">Заказать</button>
+        <button type="reset">Очистить</button>
+    </form>
+</div>
+
+</body>
+</html>
