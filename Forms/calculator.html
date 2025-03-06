@@ -1,74 +1,70 @@
-<!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бланк заказа</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: purple;
+            margin: 0;
+            padding: 30px;
+        }
+        .form-container {
+            background-color: pink;
+            padding: 20px;
+            border-radius: 50px;
+            box-shadow: 0 20px 10px rgba(0,0,0,0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: px;
+        }
+        .checkbox-group, .radio-group {
+            margin-bottom: 20px;
+        }
+        button {
+            margin-top: 10px;
+            line-height: 50px;
+            font-size: 100%;
+            padding: 0 50px;
+            background: rgb(240, 117, 213);
+            border: 1px solid black;
+            border-radius: 10px;
+        }
 
-<head> 
-	<title>HTML Calculator</title> 
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
 
-	<!-- For styling -->
-	<style> 
-		table { 
-			border: 1px solid black; 
-			margin-left: auto; 
-			margin-right: auto; 
-		} 
-		
-		input[type="button"] { 
-			width: 100%; 
-			padding: 20px 40px; 
-			background-color: green; 
-			color: white; 
-			font-size: 24px; 
-			font-weight: bold; 
-			border: none; 
-			border-radius: 5px; 
-		} 
-		
-		input[type="text"] { 
-			padding: 20px 30px; 
-			font-size: 24px; 
-			font-weight: bold; 
-			border: none; 
-			border-radius: 5px; 
-			border: 2px solid black; 
-		} 
-	</style> 
-</head> 
-
-<body> 
-
-	<table id="calcu"> 
-		<tr> 
-			<td colspan="3"> 
-				<input type="text" id="result"> 
-			</td> 
-			<td><input type="button" value="c"></td> 
-		</tr> 
-
-		<tr> 
-			<td><input type="button" value="1"></td> 
-			<td><input type="button" value="2"></td> 
-			<td><input type="button" value="3"></td> 
-			<td><input type="button" value="/"></td> 
-		</tr> 
-		<tr> 
-			<td><input type="button" value="4"></td> 
-			<td><input type="button" value="5"></td> 
-			<td><input type="button" value="6"></td> 
-			<td><input type="button" value="*"></td> 
-		</tr> 
-		<tr> 
-			<td><input type="button" value="7"></td> 
-			<td><input type="button" value="8"></td> 
-			<td><input type="button" value="9"></td> 
-			<td><input type="button" value="-"></td> 
-		</tr> 
-		<tr> 
-			<td><input type="button" value="0"></td> 
-			<td><input type="button" value="."></td> 
-			<td><input type="button" value="="></td> 
-			<td><input type="button" value="+"></td> 
-		</tr> 
-	</table> 
-</body> 
-
-</html> 
+<div class="form-container">
+    <font color="brown"><h1 ALIGN=CENTER>Калькулятор</h1></font>
+    <form>
+       
+        <p> <input type="text" size="10" style="width:56%;" required> - Первое число <br> <input type="text" size="10" style="width:56%;" required> - Второе число <br> <input type="text" size="10" style="width:56%;" required> - Результат</p>
+        
+        <button type="submit">+</button>
+        <button type="submit">-</button>
+        <button type="submit">*</button>
+        <button type="submit">/</button>
+        <button type="reset">очистить</button>
+</form>
+</div>
+</body>
+</html>
