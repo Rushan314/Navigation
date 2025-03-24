@@ -27,6 +27,22 @@
     margin-top: 200px;
 }
 
+.pic1 {
+    position: absolute;
+      z-index: 0;
+      width: 400px;
+      height: 200px;  
+}
+
+.pic2 {
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
 .text
     {
     POSITION: absolute;
