@@ -48,7 +48,7 @@
 
     .image41 {
         POSITION: absolute; 
-        Z-INDEX: 0;
+        Z-INDEX: 2;
         width: 75px;
         height: 75px;
     }
@@ -60,7 +60,7 @@
     }
     .image43 {
         POSITION: absolute; 
-        Z-INDEX: 2;
+        Z-INDEX: 0;
         width: 125px;
         height: 125px;
     }
