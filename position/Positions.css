@@ -1,0 +1,45 @@
+.mis1 {
+    position: absolute;
+    left: 50;
+    top: 50;
+    width: 200px;
+    height: 200px;
+    }
+
+.image {
+    POSITION: absolute;
+    LEFT: 25; 
+    TOP: 20;
+    WIDTH: 150px; 
+    HEIGHT: 150px;
+    Z-INDEX: 1;
+    }
+
+.text
+    {
+    POSITION: absolute;
+    LEFT: 50; 
+    TOP:100;
+    Z-INDEX: 1; 
+    FONT-SIZE:30px; 
+    COLOR: red;
+    }
+
+.image2{
+    POSITION: absolute;
+    LEFT: 20;
+    TOP: 20;
+    WIDTH: 175px;
+    HEIGHT: 175px;
+    Z-INDEX: 0;
+    }
+
+    .image41 {
+        POSITION: absolute; Z-INDEX: 0;
+    }
+    .image42 {
+        POSITION: absolute; Z-INDEX: 1;
+    }
+    .image43 {
+        POSITION: absolute; Z-INDEX: 2;
+    }
