@@ -37,8 +37,8 @@
 .pic2 {
     position: absolute;
     z-index: 1;
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 200px;
     margin-top: 15px;
     margin-left: 150px;
 }
@@ -48,7 +48,7 @@
       z-index: 3;
       font-style: italic;
       color: red;
-      font-size: 30p; 
+      font-size: 30px; 
 }
 
 .text
