@@ -45,7 +45,7 @@
 
 .slova {
     position: absolute;
-      z-index: 2;
+      z-index: 3;
       font-style: italic;
       color: red;
       font-size: 30p; 
