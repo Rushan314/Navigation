@@ -47,17 +47,20 @@
     }
 
     .image41 {
-        POSITION: absolute; Z-INDEX: 0;
+        POSITION: absolute; 
+        Z-INDEX: 0;
         width: 75px;
         height: 75px;
     }
     .image42 {
-        POSITION: absolute; Z-INDEX: 1 ;
+        POSITION: absolute; 
+        Z-INDEX: 1 ;
         width: 100px;
         height: 100px;
     }
     .image43 {
-        POSITION: absolute; Z-INDEX: 2;
+        POSITION: absolute; 
+        Z-INDEX: 2;
         width: 125px;
         height: 125px;
     }
