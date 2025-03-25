@@ -90,34 +90,19 @@
     }
 
 
-.lec{
-position: absolute;
-z-index: 1;
-width: 250px;
-height: 200px;
-margin-top: 50px;
-margin-left: 35px;
-border: 10px solid yellow; 
-}
-.gold{
-position: absolute;
-z-index: 0;
-width: 400px;
-height: 300px;
-}
-.t74{
+.pozdd{
     position: absolute;
 z-index: 2;
-font-size: 40px;
-color: aqua;
-top: 860px;
-left: 740px;
+font-size: 50px;
+color: rgb(0, 255, 255);
+left: 780px;
 }
-.t75{
+
+.pozddr{
     position: absolute;
 z-index: 2;
-font-size: 40px;
-color: aqua;
-left: 930px;
-top: 970px;
+font-size: 50px;
+color: rgb(0, 253, 253);
+left: 980px;
+margin-top: 150px;
 }
