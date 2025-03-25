@@ -106,3 +106,20 @@ color: rgb(0, 253, 253);
 left: 980px;
 margin-top: 150px;
 }
+
+.scrleto{
+position: absolute;
+z-index: 1;
+width: 250px;
+height: 200px;
+margin-top: 50px;
+margin-left: 35px;
+border: 8px solid yellow; 
+}
+
+.scrshelk{
+position: absolute;
+z-index: 0;
+width: 450px;
+height: 300px;
+}
