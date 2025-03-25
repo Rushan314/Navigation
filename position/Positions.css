@@ -90,18 +90,34 @@
     }
 
 
-.t7-img2 {
-    position: relative;
-    top: -350px;
-    left: 200px;
+.lec{
+position: absolute;
+z-index: 1;
+width: 250px;
+height: 200px;
+margin-top: 50px;
+margin-left: 35px;
+border: 10px solid yellow; 
 }
-.t7-text1 {
-    position: relative;
-    top: -650px;
-    left: 175px;
+.gold{
+position: absolute;
+z-index: 0;
+width: 400px;
+height: 300px;
 }
-.t7-text2 {
-    position: relative;
-    top: -600px;
-    left: 225px;
+.t74{
+    position: absolute;
+z-index: 2;
+font-size: 40px;
+color: aqua;
+top: 860px;
+left: 740px;
+}
+.t75{
+    position: absolute;
+z-index: 2;
+font-size: 40px;
+color: aqua;
+left: 930px;
+top: 970px;
 }
