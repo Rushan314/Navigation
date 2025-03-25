@@ -87,5 +87,21 @@
         Z-INDEX: 0;
         width: 125px;
         height: 125px;
-        
     }
+
+
+.t7-img2 {
+    position: relative;
+    top: -350px;
+    left: 200px;
+}
+.t7-text1 {
+    position: relative;
+    top: -650px;
+    left: 175px;
+}
+.t7-text2 {
+    position: relative;
+    top: -600px;
+    left: 225px;
+}
