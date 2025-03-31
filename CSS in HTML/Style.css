@@ -33,32 +33,27 @@
 }
 
 .work6 {
+    margin-left: 35%;
+    background-color: aqua;
     width: 600px;
-    height: 500px;
-    background-color: #00feff;
-    margin-left: 34%;
+    height: 400px;
+        }
+
+.zag1 {
+    font-size: 40px;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(189, 12, 12);
 }
 
-.work6Text {
-    font-size: 20px;
-}
-
-.work6Text::first-letter {
-    margin: 0;
-    color: green;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 1;
-    float: left;
-}
-
-.work6TextO {
-    margin: 0;
-}
-
-.work6za1 {
-    color: red;
-}
-.work6zag2 {
+.zag2 {
+    font-size: 30px;
+    text-align: center;
     color: blue;
+}
+
+.span {
+    font-size: 40px;
+    font-weight: initial;
+    color: green;
 }
