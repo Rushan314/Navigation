@@ -1,0 +1,33 @@
+/* 1 задание */
+.p {
+    font-style: SMALL-CAPS; 
+    background: red; 
+    padding-left: 18PX;
+    }
+
+/* 2 задание */
+.red {
+        background-color: red;
+    }
+
+/* 3 задание */
+.h1 {
+    color: red; 
+    text-align: right;
+}
+
+/* 5 задание  */
+.work5 { 
+    background-color: purple;
+    width: 300px; margin-left: auto; margin-right: auto; 
+}
+.work5CSS {
+    align-items: center;
+    color: purple;
+    text-shadow: 2px 2px 1px;
+    font-size: 30px;
+}
+.work5slova {
+    color: pink;
+    font-size: 20px;
+}
