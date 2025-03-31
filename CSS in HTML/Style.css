@@ -76,21 +76,26 @@
     border: 10px solid blue;
 }
 
-.table {
+.table0 {
     border: 10px solid blue;
     border-collapse: collapse; 
-    width: 100%; 
+    width: 100%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
 }
 
-.th {
+.th1 {
     background-color: yellow; 
     color: red; 
-    border: 3px red dashed; 
-    padding: 10px; 
+    border: 3px dashed red; 
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
-.td {
+.td2 {
     background-color: green; 
     border: 2px solid yellow; 
-    padding: 10px; 
+    padding: 8px;
+    text-align: left;
 }
