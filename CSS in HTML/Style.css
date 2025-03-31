@@ -57,3 +57,21 @@
     font-weight: initial;
     color: green;
 }
+
+.work7 {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+
+.work7Text {
+    font-size: 14px;
+    font-family: 'Monotype Corsiva', cursive;
+}
+
+.work7img {
+    width: 400px;
+    height: 200px;
+    border: 10px solid blue;
+}
