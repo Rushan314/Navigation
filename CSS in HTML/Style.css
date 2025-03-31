@@ -33,8 +33,10 @@
 }
 
 .work6 {
-    background-color: rgb(92, 243, 243);
-    width: 600px; margin-left: auto; margin-right: auto; 
+    width: 600px;
+    height: 500px;
+    background-color: #00feff;
+    margin-left: 34%;
 }
 
 .work6text {
@@ -53,4 +55,7 @@
 }
 .work6zag2 {
     color: blue;
+}
+.task№6TextO {
+    margin: 0;
 }
